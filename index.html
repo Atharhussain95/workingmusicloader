@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Custom Loader</title>
+  <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+  <div id="loader-container">
+    <div class="loader"></div>
+    <h6>Click anywhere</h6>
+  </div>
+
+  <section>
+    <img class="soundbutton paused" src="img/sound.gif" alt="Alt" onclick="loadHomeScreen()">
+    <audio class="audio" id="backgroundAudio" src="img/void music.mp3" loop></audio>
+  </section>
+
+  <div id="home-screen">
+  </div>
+  <script src="https://unpkg.com/gsap@3.9.2/dist/gsap.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
